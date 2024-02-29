@@ -1,4 +1,4 @@
-This Is a FAQ page made with Vanilla JS
+This is a FAQ page made with Vanilla JS
 
 In App.js file two methods of code execution are provided
 
