@@ -12,7 +12,7 @@
 // })
 
 
-// Using selectors
+// Using selectors much fasterr
 
 // Getting DOM
 
