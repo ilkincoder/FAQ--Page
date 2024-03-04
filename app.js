@@ -38,6 +38,7 @@ questions.forEach(function(question){
 })
 
 
+console.log(question);
 
 
 
