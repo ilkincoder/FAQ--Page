@@ -12,8 +12,9 @@
 // })
 
 
-// Using selectors
+// Using selectors much fasterr
 
+// Getting DOM
 
 const questions = document.querySelectorAll('.question');
 
@@ -31,7 +32,7 @@ questions.forEach(function(question){
                 article.classList.remove('show-text');
             }
         })
-    
+    // Adding class to show and remove the answers using toggle method
         question.classList.toggle('show-text');
     })
 
