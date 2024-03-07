@@ -1,18 +1,16 @@
-// Traverse dom
+// Traverse dom (Option 1 )
 
+const btns = document.querySelectorAll('.question-btn');
 
-// const btns = document.querySelectorAll('.question-btn');
-
-// btns.forEach(function(button){
-//     button.addEventListener('click', function(e){
-//         const question = e.currentTarget.parentElement.parentElement;
+btns.forEach(function(button){
+    button.addEventListener('click', function(e){
+        const question = e.currentTarget.parentElement.parentElement;
        
-//         question.classList.toggle('show-text');
-//     })
-// })
+        question.classList.toggle('show-text');
+    })
+});
 
-
-// Using selectors much fasterr
+// Using selectors much fasterr (Option 2 )
 
 // Getting DOM
 
@@ -32,6 +30,7 @@ questions.forEach(function(question){
                 article.classList.remove('show-text');
             }
         })
+           
     // Adding class to show and remove the answers using toggle method
         question.classList.toggle('show-text');
     })
